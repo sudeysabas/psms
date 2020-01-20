@@ -1,0 +1,114 @@
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background-color:rgb(45, 48, 51);
+     background-size: 100%; 
+    }
+ .login_box {
+     width: 280px;
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     color:rgb(255, 255, 255);
+ }  
+ .login_box h1{
+     text-transform: uppercase;
+     float:left;
+     font-size: 40px;
+     border-bottom: 3px solid rgb(36, 32, 243);
+     margin-bottom: 20px;
+     padding: 3px 0;
+ }
+ .textbox {
+    width: 100%;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 1.25px solid rgb(36, 32, 243); 
+}
+ .btn {
+    margin: 12px auto 0;
+    padding: 8px 13px; 
+    background:none;
+    font-size:12px;
+    color: rgb(36, 32, 243);
+    text-align: center;
+    border:1.25px solid rgb(36, 32, 243);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    transition: 0.3s;
+    background-color: rgb(36, 32, 243); 
+    color:rgb(45, 48, 51);
+    text-decoration: underline;
+}
+.textbox input{
+    width: 80%;  
+    font-size: 16px;
+    color:rgb(36, 32, 243);
+    border: none; 
+    background: none;
+    margin:0 10px;
+}
+.abichu {
+color: #800080;
+border-bottom:1.5px #A60059;
+
+}
+.cr_l{
+    margin: 50px auto 0;
+    margin-left: 53px;
+    padding: 20px 13px; 
+    background:none;
+    font-size:12px;
+    color:white;
+    /* text-align: center; */
+    /* border:1.25px solid rgb(36, 32, 243); */
+    /* letter-spacing: 1.5px; */
+    text-transform: uppercase;
+
+}
+.cr_s{
+    width:16%;
+    margin: 12px auto 0;
+    padding: 8px 13px; 
+    background:none;
+    font-size:12px;
+    color:white;
+    text-align: center;
+    border:1.25px solid rgb(4, 219, 15);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+option{
+    color:white;
+    background-color: rgb(45, 48, 51);
+}
+.cr_h{
+    color: white;
+    text-align: center;
+}
+
+.cr_btn {
+    margin: 12px auto 0;
+    margin-left: 100px;
+    padding: 8px 13px; 
+    background:none;
+    font-size:12px;
+    color: rgb(4, 219, 15);
+    text-align: center;
+    border:1.25px solid rgb(4, 219, 15);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.cr_btn:hover{
+    transition: 0.3s;
+    background-color: rgb(4, 219, 15); 
+    color:rgb(45, 48, 51);
+    text-decoration: underline;
+}
